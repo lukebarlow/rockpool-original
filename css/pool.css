@@ -1,0 +1,34 @@
+BODY {
+    font-family:courier;
+}
+
+path {
+    fill: steelblue;
+}
+
+#sequence {
+    margin:20px;
+}
+
+.onset {
+    fill:red;
+    opacity:0.5;
+}
+
+.track {
+    position:relative;
+    left:0px;
+    height:128px;
+}
+
+.playLine {
+    fill:black;
+}
+
+.track svg {
+    position:absolute;
+}
+
+.track canvas {
+    position:absolute;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+    <head>
+        <title>Rockpool</title>
+        <link media="all" href="css/pool.css" type="text/css" rel="stylesheet"/>
+        <script type="text/javascript" src="lib/d3.v3.js"></script>
+        <script type="text/javascript" src="lib/complex.js"></script>
+        <script type="text/javascript" src="js/pool.sound.js"></script>
+        <script type="text/javascript" src="js/pool.sequence.js"></script>
+        <script type="text/javascript" src="js/pool.fx.js"></script>
+        <script type="text/javascript" src="js/pool.noteOnset.js"></script>
+        <script type="text/javascript" src="js/pool.audioTrack.js"></script>
+        <script type="text/javascript" src="js/pool.waveform.js"></script>
+        <script type="text/javascript" src="js/pool.spectrogram.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </head>
+<body onload="init()">
+    Rockpool 
+    <button id="play">play</button>
+    <button id="stop">stop</button>
+    <button id="getNoteOnsets">draw note onsets</button>
+    <button id="alignStartTimes">align start times</button>
+    <div id="sequence" />
+
+</body>
+</html>
